@@ -13,5 +13,5 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Audio", name: "audio", widget: "file", media_library: { allow_multiple: false }, required: true }
+      - { label: "Audio", name: "audio", widget: "file" }
       - { label: "Body", name: "body", widget: "text" }
