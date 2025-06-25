@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <title>Kayra Audio CMS</title>
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+      NetlifyCmsApp.init({ config: "/admin/config.yml" });
+    </script>
   </head>
   <body>
     <div id="cms"></div>
